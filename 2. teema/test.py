@@ -1,19 +1,41 @@
-from Restoraan import Restoraan
-# loome eksemplaarid Restoraan klassi põhjal
-restoraan1 = Restoraan()
-restoraan2 = Restoraan()
-restoraan3 = Restoraan()
+from Kasutaja import Kasutaja
+# loome eksemplaarid Kasutaja klassi põhjal
+Kasutaja1 = Kasutaja()
+Kasutaja1 = Kasutaja()
+Kasutaja1 = Kasutaja()
+Kasutaja1 = Kasutaja()
 # määrame eksemplaaride atribuutidele konkreetsed väärtused
-restoraan1.restoraani_nimi = "McDonalds"
-restoraan1.soogi_tyyp = "burgerid ja friikartulid"
-restoraan2.restoraani_nimi = "Hesburger"
-restoraan2.soogi_tyyp = "burgerid"
-restoraan3.restoraani_nimi = "KFC"
-restoraan3.soogi_tyyp = "kana"
+Kasutaja1.eesnimi = "Mari"
+Kasutaja1.perenimi = "Puu"
+Kasutaja1.kasutaja_nimi = "MariPuu"
+Kasutaja1.parool = "qwerty"
+
 # kutsume eksemplaaride meetodid tööle
-restoraan1.restoraani_kirjeldus()
-restoraan1.ava_restoraan()
-restoraan2.restoraani_kirjeldus()
-restoraan2.ava_restoraan()
-restoraan3.restoraani_kirjeldus()
-restoraan2.ava_restoraan()
+Kasutaja1.kirjelda_kasutaja()
+Kasutaja1.tervita_kasutaja()
+
+Kasutaja2 = Kasutaja()
+Kasutaja2 = Kasutaja()
+Kasutaja2 = Kasutaja()
+Kasutaja2 = Kasutaja()
+
+Kasutaja2.eesnimi = "Timo"
+Kasutaja2.perenimi = "Puu"
+Kasutaja2.kasutaja_nimi = "TimoPuu"
+Kasutaja2.parool = "qwerty1"
+
+Kasutaja2.kirjelda_kasutaja()
+Kasutaja2.tervita_kasutaja()
+
+Kasutaja3 = Kasutaja()
+Kasutaja3 = Kasutaja()
+Kasutaja3 = Kasutaja()
+Kasutaja3 = Kasutaja()
+
+Kasutaja3.eesnimi = "Jüri"
+Kasutaja3.perenimi = "Klaas"
+Kasutaja3.kasutaja_nimi = "Jüriklaas"
+Kasutaja3.parool = "qwerty12"
+
+Kasutaja3.kirjelda_kasutaja()
+Kasutaja3.tervita_kasutaja()
