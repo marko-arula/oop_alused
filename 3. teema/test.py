@@ -1,18 +1,7 @@
-from Koer import Koer
-nublu = Koer("Nublu", 5)
-nublu.kirjeldus()
+from Auto import Auto
 
-puppy = Koer("Puppy")
-puppy.kirjeldus()
-if(puppy.saba):
-    print("Puppy liputab")
+ainari_uus_auto = Auto("Audi", "A6", 2017)
+minu_uus_auto = Auto("Skoda", "Octavia", 2020)
 
-vanus = 5
-while(vanus < 15):
-
-    puppy.vanus = vanus
-    puppy.kirjeldus()
-    if (puppy.vanus == 15):
-        del puppy
-    vanus += 5
-input()
+print(ainari_uus_auto.kirjeldus())
+print(minu_uus_auto.kirjeldus())
