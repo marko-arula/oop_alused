@@ -22,8 +22,8 @@ anna.opetab(aine_teemad[0], kadi, mati)
 kadi.kirjeldus()
 mati.kirjeldus()
 
-kadi.unustamine(aine_teemad[0])
+kadi.unustamine()
 kadi.kirjeldus()
-mati.unustamine(aine_teemad[0])
+mati.unustamine()
 mati.kirjeldus()
 

@@ -1,3 +1,5 @@
+from random import randint
+
 class Andmed():
     def __init__(self, *info):
         self.info = list(info)
@@ -17,8 +19,9 @@ class Opilane():
         for teema in self.teadmised:
             print(teema)
 
-    def unustamine(self, teema):
-        self.teadmised.remove(teema)
+    def unustamine(self):
+        teema_nr = randint(0, len(self.teadmised))
+        self.teadmised.remove(self.teadmised[teema_nr])
 
 class Opetaja():
     def opetab(self, teema, *opilased):
